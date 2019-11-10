@@ -1,0 +1,33 @@
+ul{
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: sandybrown;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: seashell;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+li a:hover{
+    background:peru;
+}
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
